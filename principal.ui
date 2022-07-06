@@ -17,8 +17,8 @@
    <widget class="QLabel" name="outCuadro">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
+      <x>9</x>
+      <y>9</y>
       <width>500</width>
       <height>500</height>
      </rect>
@@ -42,10 +42,10 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>10</y>
+      <x>515</x>
+      <y>9</y>
       <width>142</width>
-      <height>183</height>
+      <height>152</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -54,45 +54,75 @@
        <property name="title">
         <string>Notas</string>
        </property>
-       <layout class="QFormLayout" name="formLayout">
-        <item row="0" column="0">
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Nota 1</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QSpinBox" name="inNota1"/>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_2">
-          <property name="text">
-           <string>Nota 2</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QSpinBox" name="inNota2"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>Nota 3</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QSpinBox" name="inNota3"/>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>Promediar</string>
-       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>32</y>
+          <width>46</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nota 1</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="inNota1">
+        <property name="geometry">
+         <rect>
+          <x>64</x>
+          <y>32</y>
+          <width>48</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>64</y>
+          <width>46</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nota 2</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="inNota2">
+        <property name="geometry">
+         <rect>
+          <x>64</x>
+          <y>64</y>
+          <width>48</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>96</y>
+          <width>46</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nota 3</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="inNota3">
+        <property name="geometry">
+         <rect>
+          <x>64</x>
+          <y>96</y>
+          <width>48</width>
+          <height>26</height>
+         </rect>
+        </property>
+       </widget>
       </widget>
      </item>
     </layout>
