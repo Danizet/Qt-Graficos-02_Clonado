@@ -131,15 +131,9 @@ void Principal::dibujar()
 
     // Divisiones numeros
 
-    painter.setFont(QFont("Calibri",25));
+    painter.setFont(QFont("Calibri",10));
 
-    // ciclo
-    for(int i=0;i<=20;i+=5)
-    {
-        painter.drawText(28,392,"i");
-    }
-   // return painter;
-    /*
+
     painter.drawText(28,432,"5 -------------------");
     painter.drawText(28,412,"10 ----------------");
     painter.drawText(28,392,"15 ----------------");
@@ -148,7 +142,6 @@ void Principal::dibujar()
     painter.drawText(28,252,"50 ----------------");
     painter.drawText(28,152,"75 ----------------");
     painter.drawText(28,57,"99 ----------------");
-    */
 
 }
 int Principal::getAlto(int valor)
